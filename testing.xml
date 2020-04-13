@@ -1,0 +1,16 @@
+<suite name="parallel">
+    <test name="Device-1">
+        <parameter name="deviceName" value="Noor" />
+        <parameter name="UDID" value="290732dc7d42" />
+        <parameter name="platformVersion" value="5.1.1" />
+        <parameter name ="platformName" value="ANDROID" />
+        <parameter name="url" value="http://0.0.0.0:4723/wd/hub" />
+        <parameter name="PNum1" value="7760063142" />
+        <parameter name="password" value="test123" />
+        <parameter name="searchItem" value="65 inch tv" />
+
+        <classes>
+            <class name="TestScripts.Test1"/>
+        </classes>
+    </test>
+</suite>
